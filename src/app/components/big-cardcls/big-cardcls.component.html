@@ -3,7 +3,7 @@
   //primeira desenha o layout dps deixa dinamico
   <div class="big-card__photo">
     <img
-      src="https://upload.wikimedia.org/wikipedia/pt/a/ac/CRVascodaGama.png"
+      src="{{ cardPhoto }}"
       alt=""
       height="200px"
       width="400px"
@@ -12,19 +12,17 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu a nova versao do angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
 
   <div class="big-card__description">
     <p>
-      O angular atualizou recentemente para a versao 9.0.0
-      e trouxe muitas novidades para o framework mais usado
-      do mundo.
+      {{ cardDescription }}
     </p>
   </div>
 
   <div class="big-card__link__text">
-    <a href="#"><p>Leia mais</p></a>
+    <a href="#"><p>ver mais</p></a>
   </div>
 </div>
