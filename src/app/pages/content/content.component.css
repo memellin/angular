@@ -32,5 +32,6 @@
 }
 
 .content__description > p{
+  margin-top: 10px;
   color: rgb(136, 129, 129);
 }
