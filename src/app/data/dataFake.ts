@@ -7,7 +7,7 @@ export const dataFake = [
   },
   {
     "id": 2,
-    "photo": " 22  1rra",
+    "photo": " aaarra",
     "title": "aavavsva",
     "description": "avavvaa vasco da gama campeao de novo nao tem jeito ramon diaz"
   }

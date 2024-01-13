@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-content',
@@ -10,9 +11,12 @@ export class ContentComponent implements OnInit {
   contentTitle:string= "CAPITAO AMERICA BRABO";
   contentBody:string= "CAPITAO AMERICA LOREM PISUM NAO SEI OQ TONY STARK";
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
+
   }
 
 }

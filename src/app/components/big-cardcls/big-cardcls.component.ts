@@ -9,10 +9,15 @@ export class BigCardclsComponent implements OnInit {
 
   @Input()
   cardPhoto:string =""
+
   @Input()
   cardTitle:string =""
+
   @Input()
   cardDescription:string =""
+
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 
