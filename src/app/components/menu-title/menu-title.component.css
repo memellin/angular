@@ -5,13 +5,8 @@
     padding: 0 20rem;
     height: 9rem;
     background-color: #282A36;
-    border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    box-shadow: 0 0 5px #ccc;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
+
 }
 
 .container__menu-title > h1{
@@ -20,6 +15,7 @@
     color: #eeeff1;
     margin-top: 15px;
     margin-bottom: 15px;
+    align-self: start;
     font-size: 80px;
     justify-content: center;
     font-family: 'segoe UI';
@@ -28,4 +24,14 @@
 .container__menu-title > hr{
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+.container__menu-title > p{
+    font-weight: 400;
+    color: #eeeff1;
+    margin-right: 40px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'segoe UI';
 }
